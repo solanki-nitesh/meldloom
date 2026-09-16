@@ -1,5 +1,5 @@
 import Reveal from './Reveal'
-import { FacebookIcon, InstagramIcon, YoutubeIcon } from './Icons'
+import { FacebookIcon, InstagramIcon, WhatsAppIcon, YoutubeIcon } from './Icons'
 
 const socials = [
   {
@@ -9,13 +9,18 @@ const socials = [
   },
   {
     label: 'Facebook',
-    href: 'https://www.facebook.com/meldloom',
+    href: 'https://www.facebook.com/profile.php?id=61593659355469',
     icon: FacebookIcon,
   },
   {
     label: 'YouTube',
     href: 'https://www.youtube.com/@meldloom',
     icon: YoutubeIcon,
+  },
+  {
+    label: 'WhatsApp',
+    href: 'https://wa.me/919530202020',
+    icon: WhatsAppIcon,
   },
 ]
 

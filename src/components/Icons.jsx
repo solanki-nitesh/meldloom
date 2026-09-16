@@ -96,3 +96,19 @@ export function YoutubeIcon() {
     </svg>
   )
 }
+
+export function WhatsAppIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path
+        d="M12 4.5a7.5 7.5 0 0 0-6.4 11.4L5 19.5l3.7-.9A7.5 7.5 0 1 0 12 4.5Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+      />
+      <path
+        d="M9.2 9.4c.2-.4.4-.4.6-.4h.5c.2 0 .3.1.4.3l.6 1.4c.1.2 0 .4-.1.5l-.4.4c-.1.1-.1.3 0 .5.3.5.8 1 1.3 1.3.2.1.4.1.5 0l.4-.4c.1-.1.3-.2.5-.1l1.4.6c.2.1.3.2.3.4v.5c0 .2 0 .4-.4.6A3.6 3.6 0 0 1 12 15.4 3.4 3.4 0 0 1 8.6 12c0-.3.1-.8.6-2.6Z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+}

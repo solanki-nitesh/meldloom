@@ -570,15 +570,16 @@ main,
 }
 
 .socials {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: end;
   gap: 12px;
 }
 
 .social {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   border: 1px solid var(--line-strong);
   border-radius: 999px;
