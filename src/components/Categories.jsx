@@ -3,44 +3,44 @@ import { CandleIcon, CrochetIcon, GiftIcon, MoreIcon, PrintIcon, ResinIcon } fro
 
 const categories = [
   {
-    title: 'Candle',
+    title: 'Handmade Candles',
     text: 'Aesthetic handmade candles designed to add warmth and character.',
     icon: CandleIcon,
   },
   {
     title: 'Crochet Art',
-    text: 'Creative yarn-based pieces made with care and imagination.',
+    text: 'Creative yarn and crochet pieces made with care and imagination.',
     icon: CrochetIcon,
   },
   {
-    title: 'Resin',
+    title: 'Resin Products',
     text: 'Unique resin creations combining color, texture, and creativity.',
     icon: ResinIcon,
   },
   {
     title: 'Gift Hampers',
-    text: 'Thoughtfully curated gifts for special moments.',
+    text: 'Thoughtfully curated gift hampers for special moments.',
     icon: GiftIcon,
   },
   {
-    title: '3D Printing',
-    text: 'Modern, innovative creations brought to life through technology.',
+    title: '3D Printed Products',
+    text: 'Modern, innovative 3D printed creations brought to life through technology.',
     icon: PrintIcon,
   },
   {
-    title: 'And Many More',
-    text: 'New ideas, products, and creative experiments are always taking shape.',
+    title: 'Personalized Gifts',
+    text: 'Custom gifts, unique lifestyle pieces, and more creative ideas always taking shape.',
     icon: MoreIcon,
   },
 ]
 
 export default function Categories() {
   return (
-    <section className="section" id="coming">
+    <section className="section" id="coming" aria-labelledby="coming-heading">
       <div className="container">
         <Reveal className="section-head">
           <p className="eyebrow">What you’ll find</p>
-          <h2 className="display">What’s Coming to MELDLOOM</h2>
+          <h2 className="display" id="coming-heading">What’s Coming to MELDLOOM</h2>
         </Reveal>
         <div className="categories">
           {categories.map((item) => (
@@ -53,7 +53,7 @@ export default function Categories() {
         </div>
         <Reveal as="p" className="category-note">
           Personalized gifts, unique lifestyle pieces, and more creative ideas — all
-          under one brand.
+          under one brand. Website orders coming soon; order on Instagram and WhatsApp.
         </Reveal>
       </div>
     </section>

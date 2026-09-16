@@ -1,6 +1,6 @@
 const links = [
-  { href: '#coming', label: "What's Coming" },
-  { href: '#philosophy', label: 'Philosophy' },
+  { href: '#coming', label: 'Products' },
+  { href: '#order', label: 'Order' },
   { href: '#connect', label: 'Follow' },
   { href: '#contact', label: 'Contact' },
 ]
@@ -12,8 +12,8 @@ export default function Header({ logo, scrolled, menuOpen, setMenuOpen }) {
     <>
       <header className={`site-header${scrolled ? ' scrolled' : ''}`}>
         <div className="header-inner">
-          <a className="brand-lockup" href="#top" onClick={close}>
-            <img className="brand-logo" src={logo} alt="MELDLOOM" />
+          <a className="brand-lockup" href="#top" onClick={close} aria-label="MELDLOOM home">
+            <img className="brand-logo" src={logo} alt="MELDLOOM official logo" width="44" height="33" />
             <span className="brand-word">MELDLOOM</span>
           </a>
 

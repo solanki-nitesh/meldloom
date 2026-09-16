@@ -600,6 +600,34 @@ main,
   height: 16px;
 }
 
+.order-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 48px;
+}
+
+.contact-box .order-actions {
+  margin-bottom: 0;
+}
+
+.faq {
+  display: grid;
+  gap: 22px;
+  max-width: 720px;
+}
+
+.faq h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.faq p {
+  color: var(--ink-soft);
+}
+
 .contact-box {
   display: grid;
   gap: 22px;
@@ -734,12 +762,10 @@ main,
     align-items: start;
   }
 
-  .hero-actions {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .hero-actions .btn {
+  .hero-actions,
+  .order-actions,
+  .hero-actions .btn,
+  .order-actions .btn {
     width: 100%;
   }
 }

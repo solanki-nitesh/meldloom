@@ -26,13 +26,16 @@ const socials = [
 
 export default function Connect() {
   return (
-    <section className="section" id="connect">
+    <section className="section" id="connect" aria-labelledby="connect-heading">
       <div className="container">
         <Reveal className="connect-panel">
           <div>
             <p className="eyebrow">Stay connected</p>
-            <h2 className="display connect-title">Stay Connected</h2>
-            <p className="lede">Be the first to discover what’s taking shape at MELDLOOM.</p>
+            <h2 className="display connect-title" id="connect-heading">Stay Connected</h2>
+            <p className="lede">
+              Be the first to discover what’s taking shape at MELDLOOM. Follow @meldloom
+              and order on Instagram or WhatsApp while the online store is coming soon.
+            </p>
             <p className="handle">@meldloom</p>
           </div>
           <div className="socials">
@@ -42,7 +45,8 @@ export default function Connect() {
                 className="social"
                 href={item.href}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
+                aria-label={`${item.label} @meldloom`}
               >
                 <item.icon />
                 {item.label}

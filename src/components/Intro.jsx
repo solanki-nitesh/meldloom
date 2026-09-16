@@ -2,11 +2,11 @@ import Reveal from './Reveal'
 
 export default function Intro() {
   return (
-    <section className="section intro" id="about">
+    <section className="section intro" id="about" aria-labelledby="intro-heading">
       <div className="container">
         <Reveal className="section-head">
           <p className="eyebrow">Brand introduction</p>
-          <h2 className="display">Something Creative Is Taking Shape</h2>
+          <h2 className="display" id="intro-heading">Something Creative Is Taking Shape</h2>
           <p className="lede">
             MELDLOOM brings creativity, craftsmanship, and innovation together to create
             products that feel different, thoughtful, and uniquely yours. From handmade

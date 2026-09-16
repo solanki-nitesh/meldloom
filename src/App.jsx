@@ -6,6 +6,7 @@ import Intro from './components/Intro'
 import Categories from './components/Categories'
 import Philosophy from './components/Philosophy'
 import Launch from './components/Launch'
+import Order from './components/Order'
 import Connect from './components/Connect'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -46,6 +47,7 @@ export default function App() {
         <Categories />
         <Philosophy />
         <Launch />
+        <Order />
         <Connect />
         <Contact />
       </main>

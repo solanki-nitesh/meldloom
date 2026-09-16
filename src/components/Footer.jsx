@@ -3,7 +3,7 @@ export default function Footer({ logo }) {
     <footer className="site-footer">
       <div className="container footer-inner">
         <div className="footer-brand">
-          <img className="brand-logo" src={logo} alt="MELDLOOM" />
+          <img className="brand-logo" src={logo} alt="MELDLOOM official logo" width="44" height="33" />
           <strong>MELDLOOM</strong>
           <span>Where Ideas Take Shape.</span>
         </div>
